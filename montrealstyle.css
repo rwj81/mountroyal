@@ -1,0 +1,65 @@
+body{
+  color: grey;
+  font-family: 'Varela', sans-serif;
+  text-align: center;
+}
+
+header{
+  font-size: 3rem;
+  color: white;
+  background-image: url('skylinefrommount.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+
+#headingTitle {
+  font-size: 2.5rem;
+}
+
+#content{
+  display: grid;
+  /*grid-template-columns: 30% 20% 50%;*/
+  /*grid-template-columns: 1fr 2fr 1fr;*/
+  grid-template-columns: 4fr;
+  max-width: 780px;
+  margin: 0 auto;
+  font-size: 2rem;
+}
+
+#content div{
+  background: #F8F8FF;
+  padding: 30px;
+}
+
+#homeButton {
+  font-size: 1.75rem;
+  text-decoration: none;
+  color: white;
+}
+
+#weatherwidget {
+  Width: 100%;
+}
+
+/* Media Query For desktop: */
+
+@media only screen and (min-width: 768px) {
+  #content{
+    display: grid;
+    /*grid-template-columns: 30% 20% 50%;*/
+    /*grid-template-columns: 1fr 2fr 1fr;*/
+    grid-template-columns: 3fr 3fr;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-size: 2rem;
+}
+
+#weatherwidget {
+  Width: 1200px;
+  }
+
+#headingTitle {
+    font-size: 4rem;
+  }
