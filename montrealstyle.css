@@ -43,6 +43,31 @@ header{
   Width: 100%;
 }
 
+table, th, td {
+  Border: 1px solid black;
+  border-collapse: collapse;
+
+}
+
+table {
+  width: 80%;
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+
+}
+
+th {
+  background-color: #233044;
+
+}
+
+tr:nth-child(even) {
+  background-color: lightgray;
+}
+
 /* Media Query For desktop: */
 
 @media only screen and (min-width: 768px) {
